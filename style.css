@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #AAAAAA;
+    width: 560px;
+    height: 560px;
+    gap: 1px;
+    align-content: flex-start;
+    border: solid #FF5E5B;
+    border-width: 6px 100px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container div {
+    background-color: #D8D8D8;
+}
+
+#div-input {
+    text-align: center;
+    margin-top: 8px;
+}
+
+#input-number {
+     text-align: center;
+     width: 356px;
+     padding: 5px;
+     font-size: 25px;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #413e3e;
+     border-style: solid;
+     border-radius: 6px;
+     box-shadow: 0px 0px 0px rgba(66,66,66,.0);
+     text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+}
+
+
+.cell:hover {
+    background-color: black;
+}
+
+.cell {background-color: orange;}
